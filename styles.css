@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.wheel {
+  width: 300px;
+  height: 300px;
+  border: 15px solid #3498db;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  background: conic-gradient(#3498db 0% 25%, #fff 25% 50%, #3498db 50% 75%, #fff 75% 100%);
+}
+
+.controls {
+  font-size: 18px;
+}
+
+input[type="range"] {
+  width: 300px;
+                             }
