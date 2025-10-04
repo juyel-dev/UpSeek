@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: radial-gradient(circle at center, #0b0f2a, #03040f);
+  color: #fff;
+  font-family: 'Consolas', monospace;
+}
+
+#universe {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#dashboard {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 30, 0.5);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 15px 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+#dashboard h2 {
+  font-size: 1.1rem;
+  color: #a8f5ff;
+  margin-bottom: 8px;
+}
+
+#dashboard p {
+  font-size: 0.9rem;
+  margin: 4px 0;
+}
