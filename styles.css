@@ -1,0 +1,117 @@
+/* ================= Global Styles ================= */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #111;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #0ff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #0ff;
+}
+
+/* ================= Navigation Buttons ================= */
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    background: #0ff;
+    border: none;
+    border-radius: 5px;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    background: #0a9;
+    color: #fff;
+}
+
+/* ================= Sections ================= */
+section {
+    min-height: 100vh;
+    display: none; /* JS দিয়ে কন্ট্রোল হবে */
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-align: center;
+    transition: all 1s ease;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* ================= Individual D Section Styles ================= */
+
+/* 1D - Line Simulation */
+#1 {
+    border: 2px solid #0ff;
+}
+
+/* 2D - Plane Simulation */
+#2 {
+    border: 2px dashed #0ff;
+}
+
+/* 3D - Cube Simulation */
+#3 {
+    border: 2px solid #0ff;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+/* 4D - Time Simulation */
+#4 {
+    border: 2px dotted #0ff;
+}
+
+/* 5D - Possibility Simulation */
+#5 {
+    border: 2px double #0ff;
+}
+
+/* 6D - Alternate Worlds */
+#6 {
+    border: 2px solid #0ff;
+}
+
+/* 7D - Multiverse */
+#7 {
+    border: 2px dashed #0ff;
+}
+
+/* 8D - Meta Realities */
+#8 {
+    border: 2px dotted #0ff;
+}
+
+/* 9D - Infinity Simulation */
+#9 {
+    border: 2px solid #0ff;
+}
+
+/* ================= Extra Effects ================= */
+.d-section div {
+    transition: all 0.5s ease;
+}
