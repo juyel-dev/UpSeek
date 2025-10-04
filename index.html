@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Multi-Dimensional Site</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #0ff;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav button {
+            margin: 5px;
+            padding: 10px 15px;
+            background: #0ff;
+            border: none;
+            color: #111;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        nav button:hover {
+            background: #0a9;
+            color: #fff;
+        }
+        section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            transition: all 1s ease;
+        }
+        .d-section {
+            border: 2px solid #0ff;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 50px;
+            width: 80%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌌 Universal Multi-Dimensional Site 🌌</h1>
+        <nav>
+            <button onclick="showSection(1)">1D</button>
+            <button onclick="showSection(2)">2D</button>
+            <button onclick="showSection(3)">3D</button>
+            <button onclick="showSection(4)">4D</button>
+            <button onclick="showSection(5)">5D</button>
+            <button onclick="showSection(6)">6D</button>
+            <button onclick="showSection(7)">7D</button>
+            <button onclick="showSection(8)">8D</button>
+            <button onclick="showSection(9)">9D</button>
+        </nav>
+    </header>
+
+    <section id="1" class="d-section">1D Universe: Line Simulation 🌌</section>
+    <section id="2" class="d-section">2D Universe: Plane Simulation 🌌</section>
+    <section id="3" class="d-section">3D Universe: Cube Simulation 🌌</section>
+    <section id="4" class="d-section">4D Universe: Time Simulation 🌌</section>
+    <section id="5" class="d-section">5D Universe: Possibility Simulation 🌌</section>
+    <section id="6" class="d-section">6D Universe: Alternate Worlds 🌌</section>
+    <section id="7" class="d-section">7D Universe: Multiverse 🌌</section>
+    <section id="8" class="d-section">8D Universe: Meta Realities 🌌</section>
+    <section id="9" class="d-section">9D Universe: Infinity Simulation 🌌</section>
+
+    <script>
+        function showSection(dim) {
+            const sections = document.querySelectorAll(".d-section");
+            sections.forEach(sec => sec.style.display = "none");
+            document.getElementById(dim).style.display = "flex";
+        }
+
+        // প্রথমে 1D দেখাবে
+        showSection(1);
+    </script>
+</body>
+  </html>
